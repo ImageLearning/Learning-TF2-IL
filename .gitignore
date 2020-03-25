@@ -131,3 +131,6 @@ dmypy.json
 /.vs/PythonSettings.json
 /.vs/*
 
+#additional VS Files
+.suo
+slnx.sqlite
