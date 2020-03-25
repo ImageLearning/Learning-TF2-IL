@@ -1,4 +1,4 @@
 
 # With no Setup
 
-![NotSetupVS.png](./Storage/NotSetupVS.png)
+![NotSetupVS.png](./ColdStorage/NotSetupVS.png)
