@@ -495,3 +495,6 @@ MigrationBackup/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+# Our Python Environment, don't want to add that to the repo
+/LearnTF2
