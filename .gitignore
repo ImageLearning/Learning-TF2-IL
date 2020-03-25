@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/LearnTF2
+/.vs/PythonSettings.json
+/.vs/*
+
