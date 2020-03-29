@@ -19,7 +19,12 @@ tf.debugging.set_log_device_placement(True)
 #
 # Devices 0 and 1 are connected with an NVLink : https://www.nvidia.com/en-us/data-center/nvlink/
 #  and setup with nvidia-smi per the instructions here https://imagelearning.community/docs/Tensorflow/install-windows/  
-
+#
+#   Adding visible gpu devices: 0, 1
+#   Device interconnect StreamExecutor with strength 1 edge matrix:
+#         0 1 
+#    0:   N Y 
+#    1:   Y N 
 
 def CheckDevices():
     # tf.config.list_physical_devices('GPU')
