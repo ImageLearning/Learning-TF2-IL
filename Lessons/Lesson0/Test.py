@@ -8,3 +8,5 @@ def main():
     plt.show()
 
 main()
+
+# tested that we can run python
