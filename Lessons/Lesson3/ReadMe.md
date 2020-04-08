@@ -1,12 +1,15 @@
 
 3. Data Prep Setup & GitHub Pages 
-> In this lesson, we'll learn to identify if something is an octocat. Then we'll setup our own image recognition dataset with a variety of octocat stickers, and learn GitHub pages to publish our data set to. We'll also adjust our action to package our dataset for easy down by others.
+- In the last lesson, we learned to identify if anything was a dog or a cat.
+
+Now we'll setup our own image recognition dataset with a variety of octocat stickers, and learn GitHub pages to publish our data set to. We'll also adjust our action to package our dataset for easy down by others.
 
 
-https://github.com/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb
+------
 
-https://www.tensorflow.org/tutorials/images/classification
 
-https://github.com/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb
+https://github.com/marketplace/actions/create-zip-file
 
-https://www.tensorflow.org/tutorials/images/classification
+Git LFS
+
+Git LFS and Pages : https://github.com/marketplace/actions/create-zip-file still true?

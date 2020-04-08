@@ -1,7 +1,17 @@
 
-2. Basic ML & Actions & Your first Image recognizer
+2. Basic ML & Actions & Your first Image Classifier
 > In this lesson we will write our first Tensorflow / ML code. We will setup actions to confirm that the code we check in works and adhere to good principles (python linter). We'll end with a classic Image recognition sample
 
+Object Detection
+- https://www.tensorflow.org/lite/models/object_detection/overview
+Object Classification 
+- https://www.tensorflow.org/lite/models/image_classification/overview
+
+
+First we detect if there IS a sticker
+- What the bounds of it are
+- maybe it's orientation
+then we classify which octocat it is later
 
 --------
 
