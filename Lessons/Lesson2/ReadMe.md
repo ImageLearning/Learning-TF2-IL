@@ -5,6 +5,12 @@
 
 --------
 
+https://github.com/marketplace?type=actions&query=python
+
+https://github.com/marketplace/actions/python-lint
+
+--------
+
 Running this took under 30 minutes on my pc. if it took longer than that on yours you might consider adding a progress bar
 
 https://www.tensorflow.org/api_docs/python/tf/keras/utils/Progbar
