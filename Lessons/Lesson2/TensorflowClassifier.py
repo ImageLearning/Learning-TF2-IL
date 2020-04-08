@@ -23,10 +23,11 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+from PIL import Image
 
 URL = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
 
-path_to_zip = tf.keras.utils.get_file('cats_and_dogs.zip', origin=_URL, extract=True)
+path_to_zip = tf.keras.utils.get_file('cats_and_dogs.zip', origin=URL, extract=True)
 
 PATH = os.path.join(os.path.dirname(path_to_zip), 'cats_and_dogs_filtered')
 
