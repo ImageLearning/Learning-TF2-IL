@@ -499,3 +499,24 @@ MigrationBackup/
 # Our Python Environment, don't want to add that to the repo
 /LearnTF2
 /DataSet/Lesson2/pet_faces.tar.gz
+/DataSet/Lesson2/Data/datasets/
+/DataSet/Lesson2/Data/pet_faces_val.record-00009-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00008-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00007-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00006-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00005-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00004-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00003-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00002-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00001-of-00010
+/DataSet/Lesson2/Data/pet_faces_val.record-00000-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00009-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00008-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00007-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00006-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00005-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00004-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00003-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00002-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00001-of-00010
+/DataSet/Lesson2/Data/pet_faces_train.record-00000-of-00010

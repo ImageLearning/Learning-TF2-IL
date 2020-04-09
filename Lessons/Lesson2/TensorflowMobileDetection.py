@@ -34,13 +34,15 @@ with strategy.scope():
     # tf.debugging.set_log_device_placement(True)
     # https://www.tensorflow.org/lite/models/object_detection/overview 
 
-    CWD = os.getcwd()
-    STORAGEDIR = os.path.join(CWD, "\\DataSet\\Lesson2\\")
-
     URL = 'http://download.tensorflow.org/models/object_detection/pet_faces_tfrecord.tar.gz'
 
-    DOWNLOAD_TARGET = os.path.join(STORAGEDIR,'pet_faces.tar.gz')
+    WORKINGDIR = os.getcwd()
+    STORAGEDIR =  WORKINGDIR + "\\DataSet\\Lesson2\\"
+    DOWNLOAD_TARGET = os.path.join( STORAGEDIR,'pet_faces.tar.gz')
+    EXTRACTION_DIRECTORY =  os.path.join( STORAGEDIR,os.path.dirname('Data\\'))
 
-    path_to_zip = tf.keras.utils.get_file(DOWNLOAD_TARGET, origin=URL, extract=True)
+    path_to_zip = tf.keras.utils.get_file(DOWNLOAD_TARGET, origin=URL, extract=True, cache_subdir=".\\", cache_dir=EXTRACTION_DIRECTORY)
 
     PATH = os.path.join(os.path.dirname(path_to_zip), 'pet_faces')
+    
+    train_dir = os.path.join(PATH, 'train')
