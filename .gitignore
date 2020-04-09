@@ -498,3 +498,4 @@ MigrationBackup/
 
 # Our Python Environment, don't want to add that to the repo
 /LearnTF2
+/DataSet/Lesson2/pet_faces.tar.gz

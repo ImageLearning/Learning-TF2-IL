@@ -4,8 +4,10 @@
 
 Object Detection
 - https://www.tensorflow.org/lite/models/object_detection/overview
+- https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193
+- https://cloud.google.com/blog/products/gcp/training-an-object-detector-using-cloud-machine-learning-engine
 Object Classification 
-- https://www.tensorflow.org/lite/models/image_classification/overview
+- https://www.tensorflow.org/lite/models/image_classification/overview 
 
 
 First we detect if there IS a sticker
