@@ -8,6 +8,10 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 import numpy as np
 import matplotlib.pyplot as plt
+
+# import tensorflow_datasets as tfds
+# tfds.disable_progress_bar()
+
 from PIL import Image
 
 def CheckDevices():
@@ -46,3 +50,13 @@ with strategy.scope():
     PATH = os.path.join(os.path.dirname(path_to_zip), 'pet_faces')
     
     train_dir = os.path.join(PATH, 'train')
+    
+    # You can also do info.splits.total_num_examples to get the total
+    # number of examples in the dataset.
+    num_train_examples = info.splits['train'].num_examples
+    num_test_examples = info.splits['test'].num_examples
+
+    BUFFER_SIZE = 10000
+
+    BATCH_SIZE_PER_REPLICA = 64
+    BATCH_SIZE = BATCH_SIZE_PER_REPLICA * strategy.num_replicas_in_sync
