@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 # import tensorflow_datasets as tfds
 # tfds.disable_progress_bar()
 
-from PIL import Image
+from PIL import Image  #Pillow needed
 
 def CheckDevices():
     # tf.config.list_physical_devices('GPU')
@@ -60,3 +60,5 @@ with strategy.scope():
 
     BATCH_SIZE_PER_REPLICA = 64
     BATCH_SIZE = BATCH_SIZE_PER_REPLICA * strategy.num_replicas_in_sync
+
+    

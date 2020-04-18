@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-import tensorflow as tf
+import tensorflow as tf # tensorflow==2.1
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout, MaxPooling2D
@@ -22,8 +22,8 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 import os
 import numpy as np
-import matplotlib.pyplot as plt
-from PIL import Image
+import matplotlib.pyplot as plt #matplotlib
+from PIL import Image #pillow
 
 def CheckDevices():
     # tf.config.list_physical_devices('GPU')
