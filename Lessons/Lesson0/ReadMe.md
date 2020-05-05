@@ -22,3 +22,7 @@
 - If you try and run code, but do not have the correct packages installed, you will get an error such as:
     - ![NotSetupVS.png](./ColdStorage/NotSetupVS.png)
 - GPU Setup : https://www.tensorflow.org/install/gpu#windows_setup
+
+# Video Version
+
+https://www.youtube.com/watch?v=vZtfbdmXN_s&feature=youtu.be
