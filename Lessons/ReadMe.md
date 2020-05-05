@@ -10,6 +10,21 @@ Lined up  : https://github.com/ImageLearning/Learning-TF2-IL/tree/master/Lessons
 > In this lesson we will get setup to write code in Python and TF2, we will also run some existing code and do Q&A
 1. Basic Python Programming & GitHub
 > In this lesson, we will learn some python and check in our code to github as we go
+- Create a new GitHub Repo to work out of
+- Check it out locally 
+- Add a .gitignore file
+- Add a ReadMe.md file
+- basic Markdown syntax
+- Git Commit
+- Git Sync
+- quick file layout
+- Folder layout
+    - Docs folder
+    - Source folder
+- GitHub Pages
+- Branch 
+- Add a file that is too large (our model) and Git Reset to undo our last commit
+- Git Add . VS git add * https://gist.github.com/dsernst/ee240ae8cac2c98e7d5d
 2. Basic ML & Actions & Your first Image recognizer
 > In this lesson we will write our first Tensorflow / ML code. We will setup actions to confirm that the code we check in works and adhere to good principles (python linter). We'll end with a classic Image recognition sample
 3. Data Prep Setup & GitHub Pages 
