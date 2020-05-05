@@ -6,7 +6,7 @@ We will be building both Python / Tensorflow / ML code, and writing "supporting 
 
 Lined up  : https://github.com/ImageLearning/Learning-TF2-IL/tree/master/Lessons with below, ended up "off by 1"
 
-0. Setup Python & Tensorflow on Mac, Windows, and Windows-GPU
+0. Setup Python & Tensorflow on Mac, Windows, and Windows-GPU : https://youtu.be/vZtfbdmXN_s
 > In this lesson we will get setup to write code in Python and TF2, we will also run some existing code and do Q&A
 1. Basic Python Programming & GitHub
 > In this lesson, we will learn some python and check in our code to github as we go
